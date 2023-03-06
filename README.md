@@ -1,5 +1,10 @@
-multi-language blog using:
-laravel, MYSQL, YAJRA DATATABLES, Multilanguage with astrotomic/laravel-translatable Library
+<h1>multi-language blog using:</h1>
+<ul>
+    <li>laravel</li>
+    <li>MYSQL</li>
+    <li>YAJRA DATATABLES</li>
+    <li>Multilanguage with <code> astrotomic/laravel-translatable </code> Library</li>
+</ul>
 
 
 
