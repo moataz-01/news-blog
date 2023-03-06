@@ -3,7 +3,7 @@
     <li>laravel</li>
     <li>MYSQL</li>
     <li>YAJRA DATATABLES</li>
-    <li>Multilanguage with <code> astrotomic/laravel-translatable </code> Library</li>
+    <li>Multilanguage with <a href="https://github.com/Astrotomic/laravel-translatable">astrotomic/laravel-translatable</a> Library</li>
 </ul>
 
 
