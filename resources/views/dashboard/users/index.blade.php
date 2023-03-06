@@ -1,14 +1,7 @@
 @extends('dashboard.layouts.layout')
 
 @section('body')
-    <!-- Breadcrumb -->
-    <ol class="breadcrumb">
-        <li class="breadcrumb-item">{{ __('words.dashboard') }}</li>
-        <li class="breadcrumb-item"><a href="#">{{ __('words.dashboard') }}</a>
-        </li>
-        <li class="breadcrumb-item active">داشبرد</li>
-    </ol>
-
+    
 
     <div class="container-fluid">
 
@@ -22,10 +15,10 @@
                         <thead>
                             <tr>
                                 <th>#</th>
-                                <th>Name</th>
-                                <th>Email</th>
-                                <th>Status</th>
-                                <th>Action</th>
+                                <th>{{__('words.name')}}</th>
+                                <th>{{__('words.email')}}</th>
+                                <th>{{__('words.status')}}</th>
+                                <th>{{__('words.action')}}</th>
                             </tr>
                         </thead>
                         <tbody>

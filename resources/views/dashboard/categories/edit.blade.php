@@ -1,22 +1,7 @@
 @extends('dashboard.layouts.layout')
 
 @section('body')
-    <!-- Breadcrumb -->
-    <ol class="breadcrumb">
-        <li class="breadcrumb-item">{{__('words.dashboard')}}</li>
-        <li class="breadcrumb-item"><a href="#">{{ __('words.users') }}</a>
-        </li>
-        <li class="breadcrumb-item active">{{ __('words.add user') }}</li>
-
-        <!-- Breadcrumb Menu-->
-        <li class="breadcrumb-menu">
-            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-                <a class="btn btn-secondary" href="#"><i class="icon-speech"></i></a>
-                <a class="btn btn-secondary" href="./"><i class="icon-graph"></i> &nbsp;{{ __('words.users') }}</a>
-                <a class="btn btn-secondary" href="#"><i class="icon-settings"></i> &nbsp;{{ __('words.add user') }}</a>
-            </div>
-        </li>
-    </ol>
+    
 
 
     <div class="container-fluid">

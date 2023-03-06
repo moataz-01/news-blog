@@ -1,22 +1,7 @@
 @extends('dashboard.layouts.layout')
 
 @section('body')
-    <!-- Breadcrumb -->
-    <ol class="breadcrumb">
-        <li class="breadcrumb-item">{{__('words.dashboard')}}</li>
-        <li class="breadcrumb-item"><a href="#">{{ __('words.categories') }}</a>
-        </li>
-        <li class="breadcrumb-item active">{{ __('words.addCategory') }}</li>
-
-        <!-- Breadcrumb Menu-->
-        <li class="breadcrumb-menu">
-            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-                <a class="btn btn-secondary" href="#"><i class="icon-speech"></i></a>
-                <a class="btn btn-secondary" href="./"><i class="icon-graph"></i> &nbsp;{{ __('words.categories') }}</a>
-                <a class="btn btn-secondary" href="#"><i class="icon-settings"></i> &nbsp;{{ __('words.addCategory') }}</a>
-            </div>
-        </li>
-    </ol>
+   
 
 
     <div class="container-fluid">
@@ -51,7 +36,7 @@
                             </div>
                             
                             <div class="form-group col-md-12">
-                                <label>{{ __('words.status') }}</label>
+                                <label>{{ __('words.parent') }}</label>
                                 <select name="parent" id="" class="form-control">
                                   
                                     <option value="0">main</option>
@@ -110,12 +95,7 @@
                             </div>
 
 
-                            <div class="card-footer">
-                                <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-dot-circle-o"></i>
-                                    Submit</button>
-                                <button type="reset" class="btn btn-sm btn-danger"><i class="fa fa-ban"></i>
-                                    Reset</button>
-                            </div>
+                            
 
                         </div>
 
